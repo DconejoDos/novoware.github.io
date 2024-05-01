@@ -1,0 +1,407 @@
+body {
+    background-color: #ffffff;
+    margin: 0px;
+    font-family: "Roboto", sans-serif;
+}
+/*todo lo referente al header*/
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #6c6f73;
+    color: #ffffff;
+}
+.logoHeader img {
+    height: 15vmin;
+    margin-top: 3px;
+}
+.menu a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 3vmin;
+}
+/*todo lo referente al footer*/
+.footer {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #6c6f73;
+    display: flex;
+    flex-direction: column;
+}
+.contenido-footer {
+    flex-grow: 1;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.franja-redes {
+    display: flex;
+    background-color: #d8d9d7;
+    justify-content: space-between;
+    height: auto;
+}
+.franja-redes img {
+    height: 3vmin;
+    width: 3vmin;
+}
+.redes {
+    margin-right: 15px;
+}
+.copyright {
+    font-size: 0.8em;
+}
+.copyright img {
+    width: 3vmin;
+}
+.menuFooter {
+    display: flex;
+    align-items: flex-start;
+    justify-content: end;
+    flex-direction: column;
+    color: #ffffff;
+    margin-right: 3vmin;
+}
+.menuFooter a {
+    color: #000000;
+    text-decoration: none;
+}
+.datosContacto {
+    display: flex;
+    flex-direction: row;
+    margin-right: 1vmin;
+}
+.datosContacto img {
+    height: 7vmin;
+    width: 7vmin;
+}
+.datosContacto a {
+    font-size: 0.8em;
+}
+.certificados img {
+    height: 5vmin;
+    margin-left: 2vmin;
+}
+.vigilado {
+    text-align: center;
+    color: #ffffff;
+    font-size: 1em;
+}
+.etiquetaEnlaces {
+    font-size: 1em;
+}
+.menuEnlaces {
+    display: flex;
+    justify-content: end;
+    font-size: 0.8em;
+    margin-left: 2vmin;
+}
+/*Contenido tecnologías*/
+.contenidoTecnologias {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 3vmin 4%;
+}
+.galeria {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    padding: 20px;
+    justify-content: space-between;
+}
+/*carusel*/
+.wrapper {
+    /*max-width: 1100px;*/
+    /*background-color: blue;*/
+    position: relative;
+}
+.wrapper i {
+    top: 50%;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    font-size: 1.25rem;
+    position: absolute;
+    text-align: center;
+    line-height: 50px;
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.23);
+    transform: translateY(-50%);
+    transition: transform 0.1s linear;
+}
+.wrapper i:active {
+    transform: translateY(-50%) scale(0.85);
+}
+.wrapper i:first-child {
+    left: -22px;
+}
+.wrapper i:last-child {
+    right: -22px;
+}
+.wrapper .carousel {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: calc((100% / 4) - 12px);
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 20px;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    /*background-color: aqua;*/
+    padding: 20px;
+    margin-left: 25px;
+    justify-content: space-between;
+}
+.carousel::-webkit-scrollbar {
+    display: none;
+}
+.carousel.no-transition {
+    scroll-behavior: auto;
+}
+.carousel.dragging {
+    scroll-snap-type: none;
+    scroll-behavior: auto;
+}
+.carousel.dragging .card {
+    cursor: grab;
+    user-select: none;
+}
+.carousel :where(.card, .img) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carousel .card {
+    display: flex;
+    scroll-snap-align: start;
+    height: auto;
+    list-style: none;
+    /*background: #fff;*/
+    cursor: pointer;
+    flex-direction: column;
+
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 90%;
+    border-radius: 2vmin;
+    border: 2px solid #ccc;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    background-color: #fff;
+}
+/*Tecnologías en las que trabajamos*/
+
+.wrapper .carousel .contenedorImagen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 90%;
+    border-radius: 2vmin;
+    border: 2px solid #ccc;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+.wrapper .carousel .contenedorImagen .imagen {
+    width: 90%;
+    height: auto;
+    transition: transform 0.3s ease; /* tiempo d ela transicion o efecto*/
+    border-radius: 3vmin;
+    margin-top: 8vmin;
+    margin-bottom: 8vmin;
+}
+.wrapper .carousel .contenedorImagen .imagen:hover {
+    transform: scale(1.2);
+    z-index: 1;
+}
+
+h1 {
+    margin-left: 2vmin;
+}
+h4 {
+    margin-left: 3vmin;
+}
+
+/*
+
+
+ESTILOS PARA REGISTRATE
+
+
+*/
+
+.contenidoRegistrate {
+    display: flex;
+    flex-direction: column;
+    background-color: #e0e4e7;
+    padding-bottom: 3vmin;
+    padding-left: 3vmin;
+}
+.informacionResgistrate {
+    display: flex;
+    flex-direction: row;
+}
+.imagenRegistrate {
+    margin-right: 5vmin;
+    margin-left: 2vmin;
+    width: 30vmax;
+    justify-content:flex-start;
+}
+.imagenRegistrate img {
+    width: 100%;
+    height: auto;
+    margin-top: 1vmin;
+    margin-bottom: 1vmin;
+    border-radius: 0.5vmin;
+}
+.infoInvitacion {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-right: 20%;
+}
+.infoInvitacion h2 {
+    font-size: 4vmin;
+}
+.infoInvitacion p {
+    font-size: 3vmin;
+}
+
+.botonRegistrate {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.botonRegistrate button {
+    color: #ffffff;
+    background-color: #5a6473;
+    border-style: none;
+    border-radius: 0.5vmin;
+    width: 22vmin;
+    height: 5vmin;
+    cursor: pointer;
+}
+
+/*
+
+porque nosotros estilos
+*/
+
+.contenidoPorQue {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    padding: 3vmin 4%;
+}
+.imagenPorquenosotros {
+    margin-right: 5vmin;
+    margin-left: 2vmin;
+    width: 30vmax;
+}
+.imagenPorquenosotros img {
+    width: 100%;
+    height: auto;
+    margin-top: 1vmin;
+    margin-bottom: 1vmin;
+    border-radius: 0.5vmin;
+}
+.infoPorqueNostrosdos {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.tituloPorqueNosotros {
+    font-size: 4vmin;
+}
+.textoPorqueNosotros {
+    font-size: 3vmin;
+    padding-right: 2vmin;
+}
+
+/*Nuestros servicios*/
+.contenidoNuestrosServicios {
+    display: flex;
+    flex-direction: column;
+    background-color: #e0e4e7;
+    padding: 3vmin;
+}
+.contenidoServicios{
+    display: flex;
+    flex-direction: row;
+}
+.infoNuestroServicio {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 50%;
+}
+.tituloNuestroServicio {
+    font-size: 4vmin;
+    
+}
+.textoNuestroServicio {
+    font-size: 3vmin;
+   
+}
+.imagenNuestroServicio{
+    margin-right: 5vmin;
+    margin-left: 2vmin;
+    width: 50%;
+}
+.imagenNuestroServicio img {
+    width: 100%;
+    height: auto;
+    margin-top: 1vmin;
+    margin-bottom: 1vmin;
+    border-radius: 0.5vmin;
+}
+/*Testimonios*/
+.contenidoTestimonios {
+    display: flex;
+    flex-direction: column;
+    background-color: #e0e4e7;
+    padding: 3vmin 4%;
+}
+
+.carousel .card .imagenTestimonio {
+    width: 30%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 50%;
+
+    /*margin-top: 2vmin;*/
+    /*margin-bottom: 8vmin;*/
+}
+
+.carousel .card .nombreCliente {
+    font-weight: bold;
+}
+
+.carousel .card .nombreCliente p {
+    height: 5px;
+}
+.carousel .card .cargoCliente {
+    font-size: 80%;
+}
+.carousel .card .cargoCliente p {
+    height: 5px;
+}
+.carousel .card .testimonioCliente {
+    font-size: 70%;
+}
+
+@media screen and (max-width: 900px) {
+    .wrapper .carousel {
+        grid-auto-columns: calc((100% / 2) - 9px);
+    }
+}
+@media screen and (max-width: 600px) {
+    .wrapper .carousel {
+        grid-auto-columns: 100%;
+    }
+}

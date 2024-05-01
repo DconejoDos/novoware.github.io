@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Módulo Usuario</title>
+    <link rel="stylesheet" href="estilosmodulo.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+
+</head>
+<body>
+    <div class="contenidomodulos">
+        <div class="navegaciónizquierda">
+            <div class="cabeceraUsuario">
+                <strong id="tituloNovoWare">NovoWare</strong>
+                <p id="NickName"></p>
+                <p id="Correo"></p>
+
+            </div>
+            <div class="parteAzul">
+
+                <div class="division">
+                    <img src="../Iconos/user.png" alt="">
+                    <div class="sup">
+    
+                    </div>
+                    <div class="inf">
+    
+                    </div>
+                </div>
+                <div class="navegacion">
+                    <h2>Usuario</h2>
+                    <a href="perfilUsuario.html">Perfil</a>
+                    <a href="historial.html">Historial</a>
+                </div>
+                <div class="logoNovoWare">
+                    <img src="../Logos/LogoNovoWare.png" alt="">
+                </div>
+                <div class="opcionSalir">
+                    <a href="../index.html">Salir</a>
+                </div>
+                <div class="version">
+                    <p>NOVOWARE V1.1.0</p>
+                </div>
+
+            </div>
+            
+        </div>
+        <div class="modulo">
+            <div>
+                <h1>Perfil</h1>
+            </div>
+            <div>
+                <form class="datosPerfil" method="post">
+                    <div class="datosColumn">
+                        <div class="campo">
+                            <label for="nombreUsuario">Nombre Completo</label>
+                            <input type="text" name="nombre" id="nombreUsuario">
+                        </div>
+                        <div class="campo">
+                            <label for="emailUsuario">Correo Electrónico</label>
+                            <input type="email" name="email" id="emailUsuario">
+                        </div>
+                    </div>
+                    <div class="datosColumn">
+                        <div class="campo">
+                            <label for="telefonoUsuario">Teléfono</label>
+                            <input type="number" name="telefono" id="telefonoUsuario">
+                        </div>
+                    </div>
+                </div> 
+                <div class="Submit">
+                    <BUtton>GUARDAR</BUtton>
+                </div>
+            </div>
+        </div> 
+        <script src="scriptsModulos/usuario.js" ></script>
+        
+</body>
+</html>

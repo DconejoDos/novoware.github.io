@@ -1,0 +1,180 @@
+body{
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+#tituloNovoWare{
+    font-size: large;
+    padding-bottom: 3px;
+}
+.contenidomodulos{
+    display: flex;
+    flex-direction: row; 
+    justify-content:space-between;
+}
+.cabeceraUsuario{
+    display: flex;
+    flex-direction: column;
+    background-color: #E0E4E7;
+    font-size: 2vmin;
+    width: 27vmin;
+    height: 17  vmin;
+    text-align: center;
+}
+.navegacion{
+    background-color: #048ABF;
+    font-size: 1.5vmin;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 27vmin;
+    height: 20vmin;
+}
+.navegacion a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 2.5vmin;
+    margin-top: 5px;
+
+}
+.navegacion h2{
+    font-size: large;
+}
+.modulo{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 90%;
+}
+.division{
+    display: flex;
+    flex-direction: column;
+    width: 27vmin;
+}
+.division img{
+    height: 10vmin;
+    position: absolute;
+    margin-left: 8vmin;
+}
+.sup{
+    display: flex;
+    background-color: #E0E4E7;
+    height: 5vmin;
+}
+.inf{
+    display: flex;
+    background-color: #048ABF;
+    height: 5vmin;
+}
+.logoNovoWare{
+    background-color: #048ABF;
+    width: 27vmin;
+    
+    
+}
+.logoNovoWare img{
+    width: 22.9vmin;
+    margin-left: 0.7vmax;
+    opacity: 0.5; 
+}
+.opcionSalir{
+    display: flex;
+    height: 20vmin;
+    background-color: #048ABF;
+    font-size: 2vmin;
+    color: #ffffff;
+    justify-content: flex-end;
+}
+.opcionSalir a{
+    
+    margin-right: 12vmin;
+
+    color: white;
+}
+.version{
+    display: flex;
+    height: 10vmin;
+    font-size: 1vmin;
+    color: #ffffff;
+    background-color: #048ABF;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.version p{
+    margin-right: 1vmin;
+    
+}
+.modulo{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    margin-left: 10vmin;
+}
+.datosPerfil{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10vmin;
+    margin-bottom: 7vmin;
+}
+.datosColumn{
+    display: flex;
+    flex-direction: column;
+    margin-right: 10vmin;
+}
+.campo{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5vmin;
+    margin-top: 5vmin;
+}
+.Submit{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.Submit button{
+    background-color: #0378A6;
+    color: #ffffff;
+    border-radius: 1vmin;
+    font-size: 2vmin;
+    border-style: none;
+    height: 3.5vmin;
+}
+
+
+
+
+/*
+historial
+*/
+.infoHistorial{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin-left: 10vmin;
+}
+.solicitarServicio{
+    margin: 10px 0px;
+}
+.solicitarServicio a{
+    text-decoration: none;
+    color: black;
+}
+.solicitarServicio img{
+    width: 19px;
+}
+.tabla {
+    border-collapse: collapse;
+    margin: 10px 0px;
+}
+.tabla td, .tabla th {
+    border: none;
+    padding: 8px; 
+    
+}
+.tituloTabla td{
+    font-size: large;
+    font-weight: bold;
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrate</title>
+    <link rel="stylesheet" href="../estilos.css">
+    <link rel="stylesheet" href="estilosEspecificos.css">
+
+    <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-auth.js"></script>
+    <script src="../firebase-config.js"></script>
+
+
+</head>
+<body>
+    <header class="cabecera">
+        <nav class="menu">
+            <a class="logoHeader" href="../index.html"><img src="../Logos/LogoNovoWare.PNG"></a>
+            <a href="../index.html">Home</a>
+            <a href="planes.html">Planes</a>
+            <a href="join Us.html">Trabaja con nosotros</a>
+            <!--a href="../Pages/registro.html">Regístrate</a>-->
+            <a href="login.html">Login</a>
+        </nav>
+    </header>
+    <div class="contenidoFormularios">
+        <div class="formularios">
+            <div class="imgFormularios">
+                <img src="../Imagenes/ImgLogin.png" alt="Descripción de la imagen">
+            </div>
+            <div class="contenedorDatos">
+                <form method="post">
+                    <div class="campoDatos" >
+                        <input type="text" id="usuario" name="usuario" required placeholder="Nombre completo">
+                    </div>
+                    <div class="campoDatos" >
+                        <input type="email" id="email" name="email" required placeholder="Correo electrónico">
+                    </div>
+                    <div class="campoDatos" >
+                        <input type="password" id="contrasena" name="contrasena" required placeholder="Contrasena">
+                    </div>
+                    <div class="boton" >
+                        <button onclick="register(document.getElementById('usuario').value, document.getElementById('email').value,document.getElementById('contrasena').value)">REGISTRARSE</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="contenido-footer">
+            <div>
+                <div class="datosContacto">
+                    <nav class="menuFooter">
+                        <a href="../index.html"><img src="../Logos/LogoNovoWare.PNG"></a>
+                        <a>A. Calle 26 #68-12</a>
+                        <a>Bogotá - Colombia</a>
+                        <a>Codigo Postal 111711</a>
+                    </nav>
+                    <nav class="menuFooter">
+                        <a>PBX. +601 555 - 5555</a>
+                        <a>Ventas. - 2253</a>
+                        <a>Soporte.  1515</a>
+                    </nav>
+                </div>
+            </div>
+            <div>
+                <h2 class="vigilado">Vigilado MinTic</h2>
+                <div class="certificados">
+                    <a><img src="../Logos/Icontec.png"></a>
+                    <a><img src="../Logos/Bureau-Veritas.png"></a>
+
+                </div>
+            </div>
+            <div class="menuEnlaces">
+                <nav class="menuFooter">
+                    <h3 class="etiquetaEnlaces">Enlaces</h3>
+                    <a href="#">Contactanos</a>
+                    <a href="#">Prueba o contrata</a>
+                    <a href="#">Servicios</a>
+                    <a href="#">Nuestros clientes</a>
+                </nav>
+            </div>
+        </div>
+        <div class="franja-redes">
+            <div class="copyright">
+            <img src="../Iconos/copyright.png">
+            <a>Todos los derechos reservados</a>
+            </div>
+            <div class="redes">
+                <a class="logoFooter" href="https://www.whatsapp.com/?lang=es_LA"><img src="../Iconos/whatsapp.png"></a>
+                <a class="logoFooter" href="https://www.facebook.com/?locale=es_LA"><img src="../Iconos/facebook.webp"></a>
+                <a class="logoFooter" href="https://co.linkedin.com/"><img src="../Iconos/linkedin.webp"></a>
+                <a class="logoFooter" href="https://outlook.live.com"><img src="../Iconos/Correo.png"></a>
+                <a class="logoFooter" href="https://www.instagram.com/"><img src="../Iconos/Instagram.png"></a>
+            </div>
+        </div>
+    </footer>
+    <script src="scriptsPages/registro.js"></script>
+</body>
+</html>

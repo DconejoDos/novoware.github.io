@@ -1,0 +1,200 @@
+.contenido{
+    background-color: #D8D9D7;
+    display: flex;
+    flex-direction: column;
+}
+.contenidoFormularios{
+        background-color: #D8D9D7;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 20px;;
+}
+.formularios{
+        background-color: #048ABF;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: flex-start;
+        border-radius: 5px;
+        min-width: 300px;
+}
+.formularios img{
+   
+    width: 30vmin;
+    display: flex;
+}
+.imgFormularios{
+    margin-bottom: 10vmin;
+    margin-top: 10vmin;
+    display: flex;
+    justify-content: center;
+}
+.contenedorDatos{
+    font-display: flex;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+.campoDatos{
+    display: flex;
+    margin-top: 10px;
+    border-radius: 2vmin;
+    border-style: none;
+    justify-content: center;
+    flex-direction: row;
+}
+.boton{
+    display:flex;
+    flex-direction: row;
+    margin-top: 30px;
+    border-radius: 3px;
+    border-style: none;
+    justify-content: center;
+
+}
+.boton button{
+    background-color: #0378A6;
+    color: #ffffff;
+    border-style: none;
+}
+.formularioPlanes{
+    background-color: #ffffff;
+    padding-top: 1vmin;
+    padding-bottom: 1vmin;
+}
+.contenedorPlanes{
+    background-color: #D9D9D9;
+    display: flex;
+    flex-direction: row;
+    padding: 2vmin;
+    justify-content: space-around;
+}
+.tipoPlan{
+    padding: 2vmin;
+    background-color: #ffffff; 
+    display: flex;
+    flex-direction: column;
+    border-radius: 3vmin;
+    margin-right: 2vmin;
+}
+.tipoPlan h3{
+    font-size: 4vmin;
+}
+.tipoPlan img{
+    height: 2vmin;
+    margin-right: 2px;
+}
+.beneficioPlan{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 2vmin;
+}
+/*Tipo de letra RockSalt para los titulos llamativos d elos planes*/
+.plan{
+    text-align: center;
+    font-family: 'Rock Salt', cursive;
+}
+.campoDatosPlan{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 3vmin;
+}
+.campoDatosCuentanos{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.campoDatosPlan input{
+    width: 30%;
+}
+.campoDatosCuentanos input{
+   width: 30%;
+   height: 10vmin;
+}
+
+.venBanner{
+    background-color: #048ABF;
+    margin-top: auto;
+    text-align: center;
+    color: #ffffff;
+    font-size: 2vmin;
+    border-radius: 0vmin 0vmin 1vmin 1vmin;
+    font-size: x-large;
+
+}
+.informaciónJoinUs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 3vmin;
+    margin-top: 3%;
+    
+}
+
+.contenidoJoinUs{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    font-size: 3vmin;
+    border-radius: 2vmin;
+    
+    
+}
+.contenedorPerfil{
+    background-color: #E0E4E7 ;
+    display: flex;
+    flex-direction: column;
+    font-size: 3vmin;
+    max-width: 40%;
+    align-items: center;
+    border-radius: 2vmin;
+    
+}
+.contenedorDatosJoinUs{
+    display: flex;
+    flex-direction: column;
+    background-color: #E0E4E7 ;
+    padding:3vmin;
+    border-radius: 2vmin;
+    
+}
+
+.contenedorPerfil p{
+    margin: 2vmin;
+}
+.campoDatosJoinUs{
+    display: flex;
+    margin-top: 10px;
+    border-radius: 2vmin;
+    border-style: none;
+    justify-content: center;
+    flex-direction: row;
+}
+.campoDatosJoinUs input{
+    border-color: #048ABF;
+    border-radius: 0.5vmin;
+    width: 30vmin;
+    font-size: 1,5vmin;
+}
+.botonJoinUs{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 5vmin;
+}
+.botonJoinUs button{
+    background-color: #0378A6;
+    color: #ffffff;
+    border-style: none;
+}
+.tituloFormJoinUs{
+    text-align: center;
+    font-size: 4vmin;
+}
+#DescripAspirante{
+    height: 10vmin;
+    width: 30vmin;
+    vertical-align: top;
+    text-align: left;
+}

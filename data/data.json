@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "servicio": "Servicio 1",
+        "estado": "Finalizado",
+        "usuario": "Usuario 1",
+        "descripcion": "Se solicita servicio para la creación de una página web ecommerce",
+        "tecnolgia": "html. css. javascrit",
+        "equipo": "equipo 1"
+    },
+    {
+        "id": 2,
+        "servicio": "Servicio 2",
+        "estado": "Finalizado",
+        "usuario": "Usuario 2",
+        "descripcion": "Se solicita servicio para la creación de una página web ecommerce",
+        "tecnolgia": "html. css. javascrit",
+        "equipo": "equipo 2"
+    },
+    {
+        "id": 3,
+        "servicio": "Servicio 3",
+        "estado": "Finalizado",
+        "usuario": "Usuario 3",
+        "descripcion": "Se solicita servicio para la creación de una página web ecommerce",
+        "tecnolgia": "html. css. javascrit",
+        "equipo": "equipo 3"
+    }
+]
